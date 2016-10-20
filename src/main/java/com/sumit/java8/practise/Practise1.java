@@ -36,10 +36,10 @@ public class Practise1 {
 			int result = e.compareTo(e1);
 			return result;
 		});
+
+
+		int [] num = {1,4,5};
+		//Arrays.sort(num, (a, b) -> Integer.signum( a ) - Integer.signum( b ));
 		
 	}
-	
-
-	
-	
 }

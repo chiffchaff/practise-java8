@@ -34,5 +34,11 @@ public class Car {
 		
 		final Car police = Car.create( Car::new );
 		cars.forEach( police::follow );
+
+
+		Integer[] num = {5, -3, 0, -18, 1, 2, 0};
+		Integer[] num1 = {3, -9, -3, -10, 18};
+		Arrays.sort(num1, ( a, b ) -> Integer.signum( a ) - Integer.signum( b ));
+		System.out.println(Arrays.toString(num1));
 	}
 }
